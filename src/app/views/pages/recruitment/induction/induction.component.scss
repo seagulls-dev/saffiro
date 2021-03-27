@@ -1,0 +1,26 @@
+.filtro-tabla {
+  margin-right: 20px;
+}
+
+.btn-filter {
+  color: #fff;
+  background-color: #2786fb;
+  border-color: #2786fb;
+  color: #ffffff;
+}
+
+.btn-filter:hover {
+  color: #fff;
+  background-color: #0571f7;
+  border-color: #046ceb;
+}
+
+#estado_induc, #estado_induc_rrhh {
+  min-width: 0;
+  min-height: 0;
+  padding: 0;
+}
+
+.custom-inline {
+  padding-left: 10px;
+}

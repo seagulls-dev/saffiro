@@ -1,0 +1,46 @@
+.filtro-tabla {
+  margin-right: 20px;
+}
+
+.btn-filter {
+  color: #fff;
+  background-color: #2786fb;
+  border-color: #2786fb;
+  color: #ffffff;
+}
+
+.btn-filter:hover {
+  color: #fff;
+  background-color: #0571f7;
+  border-color: #046ceb;
+}
+
+::ng-deep .kt-datatable > .kt-datatable__table > .kt-datatable__body .kt-datatable__toggle-detail i {
+  color: #22b9ff !important;
+}
+
+::ng-deep .campanas {
+  color: #5867dd !important;
+}
+
+::ng-deep .campanas:hover {
+  cursor: pointer;
+}
+
+
+.kt-nav .kt-nav__item.kt-nav__item--active > .kt-nav__link .kt-nav__link-icon, .kt-nav .kt-nav__item.kt-nav__item--active > .kt-nav__link .kt-nav__link-text, .kt-nav .kt-nav__item.kt-nav__item--active > .kt-nav__link .kt-nav__link-arrow, .kt-nav .kt-nav__item.active > .kt-nav__link .kt-nav__link-icon, .kt-nav .kt-nav__item.active > .kt-nav__link .kt-nav__link-text, .kt-nav .kt-nav__item.active > .kt-nav__link .kt-nav__link-arrow, .kt-nav .kt-nav__item:hover:not(.kt-nav__item--disabled):not(.kt-nav__item--sub) > .kt-nav__link .kt-nav__link-icon, .kt-nav .kt-nav__item:hover:not(.kt-nav__item--disabled):not(.kt-nav__item--sub) > .kt-nav__link .kt-nav__link-text, .kt-nav .kt-nav__item:hover:not(.kt-nav__item--disabled):not(.kt-nav__item--sub) > .kt-nav__link .kt-nav__link-arrow {
+  color: #22b9ff;
+}
+
+.btn-brand {
+  color:#22b9ff;
+}
+
+::ng-deep .kt-nav .kt-nav__section .kt-nav__section-text {
+  color: #22b9ff;
+}
+
+.kt-subheader {
+  margin: 0;
+  background-color: transparent;
+}

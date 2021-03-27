@@ -1,0 +1,68 @@
+{
+    "data": [
+        {
+            "nombre": "Evaluación de Clima - Sep 2020",
+            "area": "Sistemas",
+            "version": "150319",
+            "descripcion": "La última versión contiene ajustes en los índices de medición promedios de temas",
+            "objetivo": "Evaluar los distintos aspectos que implican un buen ambiente laboral y su nivel de aplicación en el área",
+            "fecha_ini": "21-Sep-2020",
+            "fecha_fin": "21-Sep-2020",
+            "hora_ini": "15:30",
+            "participantes": 12,
+            "tiempo": 2,
+            "lugar": "Sala de reuniones piso Sistemas",
+            "responsable": "Juan Pérez",
+            "interpretacion": "",
+            "mejora": "",
+            "nom_responsable": "",
+            "cargo_responsable": "",
+            "fecha_ini_ejec": "",
+            "fecha_fin_ejec": "",
+            "estado": "En Ejecución"
+        },
+        {
+            "nombre": "Evaluación de Clima - Ago 2020",
+            "area": "Administración",
+            "version": "150203",
+            "descripcion": "La última versión contiene ajustes en los índices de medición promedios de temas",
+            "objetivo": "Evaluar los distintos aspectos que implican un buen ambiente laboral y su nivel de aplicación en el área",
+            "fecha_ini": "15-Ago-2020",
+            "fecha_fin": "15-Ago-2020",
+            "hora_ini": "15:30",
+            "participantes": 14,
+            "tiempo": 2,
+            "lugar": "Sala de reuniones piso Sistemas",
+            "responsable": "Claudia Ramirez",
+            "interpretacion": "",
+            "mejora": "",
+            "nom_responsable": "",
+            "cargo_responsable": "",
+            "fecha_ini_ejec": "",
+            "fecha_fin_ejec": "",
+            "estado": "Retrasada"
+        },
+        {
+            "nombre": "Evaluación de Clima - Jun 2020",
+            "area": "Comercial",
+            "version": "150145",
+            "descripcion": "La última versión contiene ajustes en los índices de medición promedios de temas",
+            "objetivo": "Evaluar los distintos aspectos que implican un buen ambiente laboral y su nivel de aplicación en el área",
+            "fecha_ini": "12-Jun-2020",
+            "fecha_fin": "12-Jun-2020",
+            "hora_ini": "15:30",
+            "participantes": 20,
+            "tiempo": 2,
+            "lugar": "Sala de reuniones piso Sistemas",
+            "responsable": "Pedro Aguilar",
+            "interpretacion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel bibendum tellus. Ut et maximus dui. Vivamus feugiat suscipit ligula non rhoncus. Nullam posuere ante vel risus tincidunt facilisis.",
+            "mejora": "Praesent venenatis volutpat nulla vel rutrum. Donec felis ipsum, facilisis eget nibh a, bibendum dapibus purus. Pellentesque id lectus dolor.",
+            "nom_responsable": "Pedro Aguilar",
+            "cargo_responsable": "Jefe Comercial",
+            "fecha_ini_ejec": "1-Oct-2020",
+            "fecha_fin_ejec": "15-Oct-2020",
+            "estado": "Completada"
+        }
+        
+    ]
+}

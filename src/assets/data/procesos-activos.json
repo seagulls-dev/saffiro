@@ -1,0 +1,56 @@
+{
+    "data": [
+        {
+            "fecha_ingreso": "21-Ago-2020",
+            "nombre_cargo": "Asistente Comercial",
+            "nuevo_cargo": false,
+            "nombre_nuevo_cargo": "",
+            "tipo_postulante": "Pasante",
+            "objetivo_cargo": "Minimizar errores administrativos",
+            "salario_mensual": "3,412",
+            "num_cuenta_gasto": "51023840",
+            "nom_cuenta_gasto": "Sueldos y salarios",
+            "presupuesto": "6,000",
+            "justificacion": "Se realiza una búsqueda de personal por convocatoria interna",
+            "tipo_busqueda": "Periódico",
+            "responsable": "",
+            "fecha_limite": "",
+            "estado": "Aprobado"
+        },
+        {
+            "fecha_ingreso": "19-Ago-2020",
+            "nombre_cargo": "",
+            "nuevo_cargo": true,
+            "nombre_nuevo_cargo": "Jefe Operativo",
+            "tipo_postulante": "Planta",
+            "objetivo_cargo": "Coordinar operaciones grupo",
+            "salario_mensual": "7,412",
+            "num_cuenta_gasto": "51023840",
+            "nom_cuenta_gasto": "Sueldos y salarios",
+            "presupuesto": "9,000",
+            "justificacion": "Se realiza una búsqueda de personal por convocatoria externa",
+            "tipo_busqueda": "Trabajópolis",
+            "responsable": "Genji Himuri",
+            "fecha_limite": "22/10/2020",
+            "estado": "Completado"
+        },
+        {
+            "fecha_ingreso": "30-Ago-2020",
+            "nombre_cargo": "Secretaria Ejecutiva",
+            "nuevo_cargo": false,
+            "nombre_nuevo_cargo": "",
+            "tipo_postulante": "Planta",
+            "objetivo_cargo": "Minimizar errores administrativos",
+            "salario_mensual": "3,530",
+            "num_cuenta_gasto": "51023840",
+            "nom_cuenta_gasto": "Sueldos y salarios",
+            "presupuesto": "4,000",
+            "justificacion": "Se realiza una búsqueda de personal por convocatoria externa",
+            "tipo_busqueda": "Periódico",
+            "responsable": "",
+            "fecha_limite": "",
+            "estado": "Generado"
+        }
+        
+    ]
+}

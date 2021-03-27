@@ -1,0 +1,19 @@
+:host {
+	width: 100%;
+
+	.kt-header-menu-wrapper {
+		height: 100%;
+	}
+	span {
+		font-size: 1.4rem;
+		padding-top: 20px;
+	}
+	.custom-radius {
+		border-radius: 40px !important;
+	}
+	.kt-menu__item--submenu > .kt-menu__link {
+		border-radius: 40px !important;
+	}
+}
+
+

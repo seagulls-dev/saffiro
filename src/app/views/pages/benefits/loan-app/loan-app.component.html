@@ -1,0 +1,170 @@
+<div class="kt-subheader   kt-grid__item" id="kt_subheader">
+  <div class="kt-container  kt-container--fluid ">
+    <div class="kt-subheader__main">
+      <h3 class="kt-subheader__title">
+      </h3>
+      <span class="kt-subheader__separator kt-hidden"></span>
+      <div class="kt-subheader__breadcrumbs">
+        <a  class="kt-subheader__breadcrumbs-home"><i class="flaticon2-shelter"></i></a>
+        <span class="kt-subheader__breadcrumbs-separator"></span>
+        <a href="" class="kt-subheader__breadcrumbs-link">
+          Dashboard </a>
+        <span class="kt-subheader__breadcrumbs-separator"></span>
+        <a href="" class="kt-subheader__breadcrumbs-link">
+          Préstamos </a>
+        <span class="kt-subheader__breadcrumbs-separator"></span>
+        <a href="" class="kt-subheader__breadcrumbs-link">
+          Solicitudes </a>
+        
+        <!-- <span class="kt-subheader__breadcrumbs-link kt-subheader__breadcrumbs-link--active">Active link</span> -->
+      </div>
+    </div>
+    <div class="kt-subheader__toolbar" id="botones-barra">
+      <kt-custom-subheader></kt-custom-subheader>
+    </div>
+  </div>
+</div>
+<div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
+  <div class="row">
+    <div class="col-xl-12">
+      <!--begin::Portlet-->
+      <div class="kt-portlet">
+        <div class="kt-portlet__head">
+          <div class="kt-portlet__head-label">
+            <span class="kt-portlet__head-icon">
+              <i class="kt-font-brand fa fa-table"></i>
+            </span>
+            <h2 class="kt-portlet__head-title kt-font-brand">
+              Solicitudes de préstamos
+            </h2>
+          </div>
+        </div>
+        <div class="kt-portlet__body">
+          <div class="row">
+
+
+
+            <div class="col-xl-12 col-md-12">
+              <div class="kt-portlet">
+                <div class="kt-portlet__head">
+                  <div class="kt-portlet__head-label">
+                    <h3 class="kt-portlet__head-title">Solicitudes pendientes<small></small></h3>
+                  </div>
+                  <div class="kt-portlet__head-toolbar">
+                    <div class="kt-portlet__head-wrapper">
+                      <div class="kt-portlet__head-actions">
+
+                        <a routerLink="/admin/beneficios/prestamo-nueva" class="btn btn-outline-brand btn-icon-sm">
+                          <i class="la la-plus"></i>
+                          Nueva Solicitud
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <form class="kt-form kt-form--label-right">
+                  <div class="kt-portlet__body">
+                    <div class="kt-section kt-section--first">
+                      <div class="kt-section__body">
+                        <div class="form-group row">
+                          <label class="col-form-label">Período:&nbsp;</label>
+                          <div class="filtro-tabla">
+                            <select class="form-control">
+                              <option>Seleccione un período...</option>
+                              <option value="ci">Octubre 2020</option>
+                              <option value="lm">Septiembre 2020</option>
+                              <option value="lm">Agosto 2020</option>
+                              <option value="lm">Julio 2020</option>
+                            </select>
+                          </div>
+                          <label class="col-form-label">Estado:&nbsp;</label>
+                          <div class="filtro-tabla">
+                            <select class="form-control">
+                              <option>Seleccione un estado...</option>
+                              <option value="ci">Ingresado</option>
+                              <option value="lm">Aprobado</option>
+                              <option value="lm">Rechazado</option>
+                            </select>
+                          </div>
+                          <button type="button" id="" class="btn btn-info btn-filter">Filtrar</button>
+                        </div>
+                        <div id="tabla-prestamos-pendientes"></div>
+
+
+
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="kt-portlet__foot">
+                    <div class="kt-form__actions">
+
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="kt-portlet">
+                <div class="kt-portlet__head">
+                  <div class="kt-portlet__head-label">
+                    <h3 class="kt-portlet__head-title">Todas las Solicitudes <small></small></h3>
+                  </div>
+                  <div class="kt-portlet__head-toolbar">
+                    <div class="kt-portlet__head-wrapper">
+                      <div class="kt-portlet__head-actions">
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <form class="kt-form kt-form--label-right">
+                  <div class="kt-portlet__body">
+                    <div class="kt-section kt-section--first">
+                      <div class="kt-section__body">
+                        <div class="form-group row">
+                          <label class="col-form-label">Período:&nbsp;</label>
+                          <div class="filtro-tabla">
+                            <select class="form-control">
+                              <option>Seleccione un período...</option>
+                              <option value="ci">Octubre 2020</option>
+                              <option value="lm">Septiembre 2020</option>
+                              <option value="lm">Agosto 2020</option>
+                              <option value="lm">Julio 2020</option>
+                            </select>
+                          </div>
+                          <label class="col-form-label">Estado:&nbsp;</label>
+                          <div class="filtro-tabla">
+                            <select class="form-control">
+                              <option>Seleccione un estado...</option>
+                              <option value="ci">Ingresado</option>
+                              <option value="lm">Aprobado</option>
+                              <option value="lm">Rechazado</option>
+                            </select>
+                          </div>
+                          <button type="button" id="" class="btn btn-info btn-filter">Filtrar</button>
+                        </div>
+                        <div id="tabla-prestamos"></div>
+
+
+
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="kt-portlet__foot">
+                    <div class="kt-form__actions">
+
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+            <!--End:: App Content-->
+          </div>
+
+          <!--End::App-->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

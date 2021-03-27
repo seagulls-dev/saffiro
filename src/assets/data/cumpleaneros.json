@@ -1,0 +1,28 @@
+{
+    "data": [
+        {
+            "nom_func": "Ruben Flores",
+            "cargo_func": "Asistente Administrativo",
+            "ci_func": "123456",
+            "area_func": "Comercial",
+            "fecha_cumple": "12-Sep-1978",
+            "mes": "Septiembre"
+        },
+        {
+            "nom_func": "Carlos Ramos",
+            "cargo_func": "Jeje de Sistemas",
+            "ci_func": "2341654",
+            "area_func": "Sistemas",
+            "fecha_cumple": "5-Ago-1973",
+            "mes": "Agosto"
+        },
+        {
+            "nom_func": "Claudia Perez",
+            "cargo_func": "Jefe Contable",
+            "ci_func": "2352653",
+            "area_func": "Contabilidad",
+            "fecha_cumple": "23-Jun-1981",
+            "mes": "Junio"
+        }
+    ]
+}

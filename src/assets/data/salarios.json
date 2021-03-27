@@ -1,0 +1,42 @@
+{
+    
+    "data": [
+        {
+            "nom_solicit": "Paola Ramirez",
+            "cargo_solicit": "Jefe Comercial",
+            "nom_func": "Jorge Blanco",
+            "cargo_func": "Asistente Comercial",
+            "salario": "11,638",
+            "salario_prop": "14,550",
+            "prorateo": "SI",
+            "fecha_ini": "01-Ene-2020",
+            "observaciones": "Observaciones",
+            "estado": "Ingresado"
+        },
+        {
+            "nom_solicit": "Vanesa Sainz",
+            "cargo_solicit": "Jefe de Sistemas",
+            "nom_func": "Felix Romero",
+            "cargo_func": "Nivel I",
+            "salario": "9,200",
+            "salario_prop": "11,200",
+            "prorateo": "SI",
+            "fecha_ini": "01-Ene-2020",
+            "observaciones": "Observaciones",
+            "estado": "Aprobado"
+        },
+        {
+            "nom_solicit": "Ramiro Llanos",
+            "cargo_solicit": "Jefe Operativo",
+            "nom_func": "Rubén Claros",
+            "cargo_func": "Nivel I",
+            "salario": "9,200",
+            "salario_prop": "11,200",
+            "prorateo": "SI",
+            "fecha_ini": "01-Ene-2020",
+            "observaciones": "Observaciones",
+            "estado": "Rechazado"
+        }
+
+    ]
+}

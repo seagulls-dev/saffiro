@@ -1,0 +1,366 @@
+<div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
+  <div class="row">
+    <div class="col-xl-12">
+      <!--begin::Portlet-->
+      <div class="kt-portlet">
+        <div class="kt-portlet__head">
+          <div class="kt-portlet__head-label">
+            <span class="kt-portlet__head-icon">
+              <i class="kt-font-brand fa fa-table"></i>
+            </span>
+            <h2 class="kt-portlet__head-title kt-font-brand">
+              Inducción
+            </h2>
+          </div>
+        </div>
+        <div class="kt-portlet__body">
+          <div class="row">
+            
+
+            
+            <div class="col-xl-12 col-md-12">
+              <div class="kt-portlet">
+                <div class="kt-portlet__head">
+                  <div class="kt-portlet__head-label">
+                    <h3 class="kt-portlet__head-title">Cuestionarios de inducción <small></small></h3>
+                  </div>
+                  <div class="kt-portlet__head-toolbar">
+                    <div class="kt-portlet__head-wrapper">
+                      <div class="kt-portlet__head-actions">
+                        
+                        <a routerLink="/admin/reclutamiento/induction-neuvo" class="btn btn-outline-brand btn-icon-sm">
+                          <i class="la la-plus"></i>
+                          Nueva Solicitud
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <form class="kt-form kt-form--label-right">
+                  <div class="kt-portlet__body">
+                    <div class="kt-section kt-section--first">
+                      <div class="kt-section__body">
+                        <div class="form-group row">
+                          <label class="col-form-label">Período:&nbsp;</label>
+                          <div class="filtro-tabla" >
+                            <select  class="form-control">
+                              <option >Seleccione un período...</option>
+                              <option value="ci" >Octubre 2020</option>
+                              <option value="lm">Septiembre 2020</option>
+                              <option value="lm">Agosto 2020</option>
+                              <option value="lm">Julio 2020</option>
+                            </select>
+                          </div>
+                          <label class="col-form-label">Estado:&nbsp;</label>
+                          <div class="filtro-tabla" >
+                            <select  class="form-control">
+                              <option >Seleccione un estado...</option>
+                              <option value="ci" >Ingresado</option>
+                              <option value="lm">Aprobado</option>
+                              <option value="lm">Rechazado</option>
+                            </select>
+                          </div>
+                          <button type="button" id="" class="btn btn-info btn-filter">Filtrar</button>
+                        </div>
+                        <div id="tabla-induccion"></div>
+                        <div class="kt-separator kt-separator--border-solid kt-separator--space-lg kt-separator--portlet-fit"></div>
+                        <!--end: Datatable -->
+                        <div class="row">
+                          <label class="col-xl-3"></label>
+                          <div class="col-lg-9 col-xl-6">
+                            <h3 class="kt-section__title ">Detalle cuestionario</h3>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <label class="col-xl-3"></label>
+                          <div class="col-lg-9 col-xl-6">
+                            <ul class="nav nav-tabs nav-tabs-line nav-tabs-bold nav-tabs-line-3x nav-tabs-line-success" role="tablist">
+                              <li class="nav-item">
+                                <a class="nav-link active" data-toggle="tab" href="#kt_tabs_sup" role="tab">Inmediato superior</a>
+                              </li>
+                              
+                              <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#kt_tabs_rrhh" role="tab">Jefe de RRHH</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+
+                        <div class="tab-content">
+                          <div class="tab-pane active" id="kt_tabs_sup" role="tabpanel">
+
+                            <div class="form-group row">
+                              <label class="col-xl-3 col-lg-3 col-form-label">Estado</label>
+                              <div class="col-lg-9 col-xl-6" >
+                                <span id="estado_induc" class="kt-badge kt-badge--inline kt-badge--pill kt-badge--md"></span>
+                              </div>
+                            </div>
+                            <div class="form-group row">
+                              <label class="col-xl-3 col-lg-3 col-form-label">Nombres</label>
+                              <div class="col-lg-9 col-xl-6">
+                                <input disabled class="form-control" id="nombres_induc" type="text" value="">
+                              </div>
+                            </div>
+                            <div class="form-group row">
+                              <label class="col-xl-3 col-lg-3 col-form-label">Apellido Paterno</label>
+                              <div class="col-lg-9 col-xl-6">
+                                <input disabled class="form-control" id="ap_paterno_induc" type="text" value="">
+                              </div>
+                            </div>
+                            <div class="form-group row">
+                              <label class="col-xl-3 col-lg-3 col-form-label">Apellido Materno</label>
+                              <div class="col-lg-9 col-xl-6">
+                                <input disabled class="form-control" id="ap_materno_induc" type="text" value="">
+                              </div>
+                            </div>
+                            <div class="form-group row">
+                              <label class="col-xl-3 col-lg-3 col-form-label">Area</label>
+                              <div class="col-lg-9 col-xl-6">
+                                <input disabled class="form-control" id="area_induc" type="text" value="">
+                              </div>
+                            </div>
+                            <div class="form-group row">
+                              <label class="col-xl-3 col-lg-3 col-form-label">Cargo</label>
+                              <div class="col-lg-9 col-xl-6">
+                                <input disabled class="form-control" id="cargo_induc" type="text" value="">
+                              </div>
+                            </div>
+                            <div class="form-group row">
+                              <label class="col-xl-3 col-lg-3 col-form-label">Fecha Ingreso</label>
+                              <div class="col-lg-9 col-xl-6">
+                                <div class="input-group date">
+                                  <div class="input-group-prepend">
+                                    <span class="input-group-text">
+                                      <i class="la la-calendar-check-o"></i>
+                                    </span>
+                                  </div>
+                                  <input disabled type="text" class="form-control" placeholder="Seleccione una fecha" id="fecha_ingreso_induc" value=""/>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="form-group row">
+                              <label class="col-xl-3 col-lg-3 col-form-label">Induccion</label>
+                              <div class="col-lg-9 col-xl-6 kt-radio-inline custom-inline">
+                                <label class="kt-radio">
+                                  <input disabled type="radio" name="radio2" id="induc_si" > Si
+                                  <span></span>
+                                </label>
+                                <label class="kt-radio">
+                                  <input disabled type="radio" name="radio2" id="induc_no" > No
+                                  <span></span>
+                                </label>
+                                
+                              </div>
+                            </div>
+                            <div class="form-group row">
+                              <label class="col-xl-3 col-lg-3 col-form-label">Fecha Inicio</label>
+                              <div class="col-lg-9 col-xl-6">
+                                <div class="input-group date">
+                                  <div class="input-group-prepend">
+                                    <span class="input-group-text">
+                                      <i class="la la-calendar-check-o"></i>
+                                    </span>
+                                  </div>
+                                  <input disabled type="text" class="form-control" placeholder="Seleccione una fecha" id="fecha_ini_induc" value=""/>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="form-group row">
+                              <label class="col-xl-3 col-lg-3 col-form-label">Fecha Fin</label>
+                              <div class="col-lg-9 col-xl-6">
+                                <div class="input-group date">
+                                  <div class="input-group-prepend">
+                                    <span class="input-group-text">
+                                      <i class="la la-calendar-check-o"></i>
+                                    </span>
+                                  </div>
+                                  <input disabled type="text" class="form-control" placeholder="Seleccione una fecha" id="fecha_fin_induc" value=""/>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="form-group row">
+                              <label class="col-xl-3 col-lg-3 col-form-label">Inmediato Superior</label>
+                              <div class="col-lg-9 col-xl-6">
+                                <input disabled class="form-control" id="superior_induc" type="text" value="">
+                              </div>
+                            </div>
+                            <div class="form-group row">
+                              <label class="col-xl-3 col-lg-3 col-form-label">Dudas resueltas</label>
+                              <div class="col-lg-9 col-xl-6 kt-radio-inline custom-inline">
+                                <label class="kt-radio">
+                                  <input disabled type="radio" name="radio3" id="dudas_si" > Si
+                                  <span></span>
+                                </label>
+                                <label class="kt-radio">
+                                  <input disabled type="radio" name="radio3" id="dudas_no" > No
+                                  <span></span>
+                                </label>
+                                
+                              </div>
+                            </div>
+                            
+                            <div class="form-group row">
+                              <label class="col-xl-3 col-lg-3 col-form-label">Observaciones</label>
+                              <div class="col-lg-9 col-xl-6">
+                                <textarea disabled class="form-control" id="observaciones_induc" rows="4"></textarea>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="tab-pane " id="kt_tabs_rrhh" role="tabpanel">
+                            <div class="form-group row">
+                              <label class="col-xl-3 col-lg-3 col-form-label">Estado</label>
+                              <div class="col-lg-9 col-xl-6" >
+                                <span id="estado_induc_rrhh" class="kt-badge kt-badge--inline kt-badge--pill kt-badge--md"></span>
+                              </div>
+                            </div>
+                            <div class="form-group row">
+                              <label class="col-xl-3 col-lg-3 col-form-label">Nombres</label>
+                              <div class="col-lg-9 col-xl-6">
+                                <input disabled class="form-control" id="nombres_induc_rrhh" type="text" value="">
+                              </div>
+                            </div>
+                            <div class="form-group row">
+                              <label class="col-xl-3 col-lg-3 col-form-label">Apellido Paterno</label>
+                              <div class="col-lg-9 col-xl-6">
+                                <input disabled class="form-control" id="ap_paterno_induc_rrhh" type="text" value="">
+                              </div>
+                            </div>
+                            <div class="form-group row">
+                              <label class="col-xl-3 col-lg-3 col-form-label">Apellido Materno</label>
+                              <div class="col-lg-9 col-xl-6">
+                                <input disabled class="form-control" id="ap_materno_induc_rrhh" type="text" value="">
+                              </div>
+                            </div>
+                            <div class="form-group row">
+                              <label class="col-xl-3 col-lg-3 col-form-label">Area</label>
+                              <div class="col-lg-9 col-xl-6">
+                                <input disabled class="form-control" id="area_induc_rrhh" type="text" value="">
+                              </div>
+                            </div>
+                            <div class="form-group row">
+                              <label class="col-xl-3 col-lg-3 col-form-label">Cargo</label>
+                              <div class="col-lg-9 col-xl-6">
+                                <input disabled class="form-control" id="cargo_induc_rrhh" type="text" value="">
+                              </div>
+                            </div>
+                            <div class="form-group row">
+                              <label class="col-xl-3 col-lg-3 col-form-label">Fecha Ingreso</label>
+                              <div class="col-lg-9 col-xl-6">
+                                <div class="input-group date">
+                                  <div class="input-group-prepend">
+                                    <span class="input-group-text">
+                                      <i class="la la-calendar-check-o"></i>
+                                    </span>
+                                  </div>
+                                  <input disabled type="text" class="form-control" placeholder="Seleccione una fecha" id="fecha_ingreso_induc_rrhh" value=""/>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="form-group row">
+                              <label class="col-xl-3 col-lg-3 col-form-label">Induccion</label>
+                              <div class="col-lg-9 col-xl-6 kt-radio-inline custom-inline">
+                                <label class="kt-radio">
+                                  <input disabled type="radio" name="radio2" id="induc_si_rrhh" > Si
+                                  <span></span>
+                                </label>
+                                <label class="kt-radio">
+                                  <input disabled type="radio" name="radio2" id="induc_no_rrhh" > No
+                                  <span></span>
+                                </label>
+                                
+                              </div>
+                            </div>
+                            <div class="form-group row">
+                              <label class="col-xl-3 col-lg-3 col-form-label">Fecha Inicio</label>
+                              <div class="col-lg-9 col-xl-6">
+                                <div class="input-group date">
+                                  <div class="input-group-prepend">
+                                    <span class="input-group-text">
+                                      <i class="la la-calendar-check-o"></i>
+                                    </span>
+                                  </div>
+                                  <input disabled type="text" class="form-control" placeholder="Seleccione una fecha" id="fecha_ini_induc_rrhh" value=""/>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="form-group row">
+                              <label class="col-xl-3 col-lg-3 col-form-label">Fecha Fin</label>
+                              <div class="col-lg-9 col-xl-6">
+                                <div class="input-group date">
+                                  <div class="input-group-prepend">
+                                    <span class="input-group-text">
+                                      <i class="la la-calendar-check-o"></i>
+                                    </span>
+                                  </div>
+                                  <input disabled type="text" class="form-control" placeholder="Seleccione una fecha" id="fecha_fin_induc_rrhh" value=""/>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="form-group row">
+                              <label class="col-xl-3 col-lg-3 col-form-label">Inmediato Superior</label>
+                              <div class="col-lg-9 col-xl-6">
+                                <input disabled class="form-control" id="superior_induc_rrhh" type="text" value="">
+                              </div>
+                            </div>
+                            <div class="form-group row">
+                              <label class="col-xl-3 col-lg-3 col-form-label">Dudas resueltas</label>
+                              <div class="col-lg-9 col-xl-6 kt-radio-inline custom-inline">
+                                <label class="kt-radio">
+                                  <input disabled type="radio" name="radio3" id="dudas_si_rrhh" > Si
+                                  <span></span>
+                                </label>
+                                <label class="kt-radio">
+                                  <input disabled type="radio" name="radio3" id="dudas_no_rrhh" > No
+                                  <span></span>
+                                </label>
+                                
+                              </div>
+                            </div>
+                            
+                            <div class="form-group row">
+                              <label class="col-xl-3 col-lg-3 col-form-label">Observaciones</label>
+                              <div class="col-lg-9 col-xl-6">
+                                <textarea disabled class="form-control" id="observaciones_induc_rrhh" rows="4"></textarea>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        
+                      </div>
+                    </div>
+                  </div>
+                  <div class="kt-portlet__foot">
+                    <div class="kt-form__actions">
+                      <div class="row">
+                        
+                        <label class="col-xl-3 col-lg-3 col-form-label" style="text-align: right;">Rol Inmediato Superior</label>
+                        <div class="col-lg-9 col-xl-9">
+                          <button disabled type="reset" id="btn-guardar-induccion" class="btn btn-success">Guardar</button>&nbsp;
+                          
+                        </div>
+                      </div>
+                      <br>
+                      
+                      <div class="row">
+                        <label class="col-xl-3 col-lg-3 col-form-label" style="text-align: right;">Rol Jefe de RRHH</label>
+                        <div class="col-lg-9 col-xl-9">
+                          <button disabled type="reset" id="btn-revisar-induccion" class="btn btn-success">Revisado</button>&nbsp;
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+            <!--End:: App Content-->
+          </div>
+
+          <!--End::App-->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

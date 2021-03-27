@@ -1,0 +1,72 @@
+{
+    
+    "data": [
+        {
+            "nom_solicit": "Paola Ramirez",
+            "cargo_solicit": "Jefe Comercial",
+            "nom_func": "Jorge Blanco",
+            "cargo_func": "Asistente Comercial",
+            "salario": "11,638",
+            "salario_prop": "14,550",
+            "prorateo": "SI",
+            "fecha_ini": "01-Ene-2020",
+            "observaciones": "Observaciones",
+            "cargo_prop": "Ejecutivo Comercial",
+            "nuevo_cargo": "SI",
+            "nivel_salarial": "Nivel I",
+            "tipo_func": "Comercial",
+            "tipo_planilla": "2 - Planilla comercial",
+            "centro_costo": "51023850 - Administración",
+            "empresa": "IMK",
+            "centro_costo_sup": "51023850 - Administración",
+            "inmed_superior": "Jefe Comercial",
+            "cargo_dep": "Asistente Comercial",
+            "estado": "Ingresado"
+        },
+        {
+            "nom_solicit": "Vanesa Sainz",
+            "cargo_solicit": "Jefe de Sistemas",
+            "nom_func": "Felix Romero",
+            "cargo_func": "Nivel I",
+            "salario": "9,200",
+            "salario_prop": "11,200",
+            "prorateo": "SI",
+            "fecha_ini": "01-Ene-2020",
+            "observaciones": "Observaciones",
+            "cargo_prop": "Desarrollador BD",
+            "nuevo_cargo": "SI",
+            "nivel_salarial": "Nivel II",
+            "tipo_func": "Sistemas",
+            "tipo_planilla": "9 - Planilla Contabilidad y Sistemas",
+            "centro_costo": "51023840 - Sistemas",
+            "empresa": "Saffiro",
+            "centro_costo_sup": "51023840 - Sistemas",
+            "inmed_superior": "Gerente de Sistemas",
+            "cargo_dep": "Asistente de Sistemas",
+            "estado": "Aprobado"
+        },
+        {
+            "nom_solicit": "Ramiro Llanos",
+            "cargo_solicit": "Jefe Operativo",
+            "nom_func": "Rubén Claros",
+            "cargo_func": "Nivel I",
+            "salario": "9,200",
+            "salario_prop": "11,200",
+            "prorateo": "SI",
+            "fecha_ini": "01-Ene-2020",
+            "observaciones": "Observaciones",
+            "cargo_prop": "Desarrollador BD",
+            "nuevo_cargo": "NO",
+            "nivel_salarial": "",
+            "tipo_func": "",
+            "tipo_planilla": "",
+            "centro_costo": "",
+            "empresa": "",
+            "centro_costo_sup": "",
+            "inmed_superior": "",
+            "cargo_dep": "",
+            "estado": "Rechazado"
+        }
+
+    ]
+}

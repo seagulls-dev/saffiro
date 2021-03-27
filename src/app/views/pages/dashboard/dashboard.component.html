@@ -1,0 +1,316 @@
+<div class="kt-subheader   kt-grid__item" id="kt_subheader">
+	<div class="kt-container  kt-container--fluid ">
+		<div class="kt-subheader__main">
+			<h3 class="kt-subheader__title">
+			</h3>
+			<span class="kt-subheader__separator kt-hidden"></span>
+			<div class="kt-subheader__breadcrumbs">
+				<a  class="kt-subheader__breadcrumbs-home"><i class="flaticon2-shelter"></i></a>
+				<span class="kt-subheader__breadcrumbs-separator"></span>
+				<a href="" class="kt-subheader__breadcrumbs-link">
+					Dashboard </a>
+				
+
+				<!-- <span class="kt-subheader__breadcrumbs-link kt-subheader__breadcrumbs-link--active">Active link</span> -->
+			</div>
+		</div>
+		<div class="kt-subheader__toolbar" id="botones-barra">
+			<kt-custom-subheader></kt-custom-subheader>
+		</div>
+	</div>
+</div>
+<div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
+	<!-- chart section -->
+	<div class="kt-portlet">
+		<div class="kt-portlet__body  kt-portlet__body--fit">
+			<div class="row row-no-padding row-col-separator-xl">
+				<div class="col-xl-4 col-lg-4">
+
+					<!--begin:: Widgets/Daily Sales-->
+					<div class="kt-portlet kt-portlet--height-fluid">
+						<div class="kt-widget14">
+							<div class="kt-widget14__header kt-margin-b-30">
+								<h3 class="kt-widget14__title">
+									Métricas Personal
+								</h3>
+								<span class="kt-widget14__desc">
+									KPIs del área de Personal
+								</span>
+							</div>
+							<div class="kt-widget14__chart" style="height:120px;">
+								<canvas id="metricas_personal" #chart1></canvas>
+							</div>
+						</div>
+					</div>
+
+					<!--end:: Widgets/Daily Sales-->
+				</div>
+				<div class="col-xl-4 col-lg-4">
+
+					<!--begin:: Widgets/Profit Share-->
+					<div class="kt-portlet kt-portlet--height-fluid">
+						<div class="kt-widget14">
+							<div class="kt-widget14__header">
+								<h3 class="kt-widget14__title">
+									Estado Laboral
+								</h3>
+								<span class="kt-widget14__desc">
+									Estado laboral de todo el grupo
+								</span>
+							</div>
+							<div class="kt-widget14__content">
+								<div class="kt-widget14__chart">
+									<div class="kt-widget14__stat"></div>
+									<canvas id="kt_chart_profit_share" style="height: 140px; width: 140px;" #chart2></canvas>
+								</div>
+								<div class="kt-widget14__legends">
+									<div class="kt-widget14__legend">
+										<span class="kt-widget14__bullet kt-bg-success"></span>
+										<span class="kt-widget14__stats">37% Desvinculados</span>
+									</div>
+									<div class="kt-widget14__legend">
+										<span class="kt-widget14__bullet kt-bg-warning"></span>
+										<span class="kt-widget14__stats">47% Activos</span>
+									</div>
+									<div class="kt-widget14__legend">
+										<span class="kt-widget14__bullet kt-bg-brand"></span>
+										<span class="kt-widget14__stats">19% Retirados</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!--end:: Widgets/Profit Share-->
+				</div>
+				<div class="col-xl-4 col-lg-4">
+
+					<!--begin:: Widgets/Revenue Change-->
+					<div class="kt-portlet kt-portlet--height-fluid">
+						<div class="kt-widget14">
+							<div class="kt-widget14__header">
+								<h3 class="kt-widget14__title">
+									Revenue Change
+								</h3>
+								<span class="kt-widget14__desc">
+									Revenue change breakdown by cities
+								</span>
+							</div>
+							<div class="kt-widget14__content">
+								<div class="kt-widget14__chart">
+									<div id="kt_chart_revenue_change" style="height: 150px; width: 150px;" #chart3></div>
+								</div>
+								<div class="kt-widget14__legends">
+									<div class="kt-widget14__legend">
+										<span class="kt-widget14__bullet kt-bg-success"></span>
+										<span class="kt-widget14__stats">+10% New York</span>
+									</div>
+									<div class="kt-widget14__legend">
+										<span class="kt-widget14__bullet kt-bg-warning"></span>
+										<span class="kt-widget14__stats">-7% London</span>
+									</div>
+									<div class="kt-widget14__legend">
+										<span class="kt-widget14__bullet kt-bg-brand"></span>
+										<span class="kt-widget14__stats">+20% California</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!--end:: Widgets/Revenue Change-->
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end chart section -->
+
+	<!-- table one	 -->
+	<div class="kt-portlet kt-portlet--mobile">
+		<div class="kt-portlet__head kt-portlet__head--lg">
+			<div class="kt-portlet__head-label">
+				<span class="kt-portlet__head-icon">
+					<i class="kt-font-brand flaticon2-notification"></i>
+				</span>
+				<h3 class="kt-portlet__head-title">
+					Tareas
+				</h3>
+			</div>
+			<div class="kt-portlet__head-toolbar">
+				<div class="kt-portlet__head-wrapper">
+					<div class="kt-portlet__head-actions">
+						<div class="dropdown dropdown-inline">
+							<button type="button" class="btn btn-default btn-icon-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<i class="la la-download"></i> Export
+							</button>
+							<div class="dropdown-menu dropdown-menu-right">
+								<ul class="kt-nav">
+									<li class="kt-nav__section kt-nav__section--first">
+										<span class="kt-nav__section-text">Choose an option</span>
+									</li>
+									<li class="kt-nav__item">
+										<a  class="kt-nav__link">
+											<i class="kt-nav__link-icon la la-print"></i>
+											<span class="kt-nav__link-text">Print</span>
+										</a>
+									</li>
+									<li class="kt-nav__item">
+										<a  class="kt-nav__link">
+											<i class="kt-nav__link-icon la la-copy"></i>
+											<span class="kt-nav__link-text">Copy</span>
+										</a>
+									</li>
+									<li class="kt-nav__item">
+										<a  class="kt-nav__link">
+											<i class="kt-nav__link-icon la la-file-excel-o"></i>
+											<span class="kt-nav__link-text">Excel</span>
+										</a>
+									</li>
+									<li class="kt-nav__item">
+										<a  class="kt-nav__link">
+											<i class="kt-nav__link-icon la la-file-text-o"></i>
+											<span class="kt-nav__link-text">CSV</span>
+										</a>
+									</li>
+									<li class="kt-nav__item">
+										<a  class="kt-nav__link">
+											<i class="kt-nav__link-icon la la-file-pdf-o"></i>
+											<span class="kt-nav__link-text">PDF</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="kt-portlet__body">
+
+			<!--begin: Datatable -->
+			
+			<div class="row">
+				<div class="col-sm-12 col-md-9 ">
+				</div>
+				<div class=" col-sm-12 col-md-3 ">
+					<div class="kt-input-icon kt-input-icon--left">
+						<input type="text" class="form-control form-control-sm" placeholder="Buscar..." id="generalSearch">
+						<span class="kt-input-icon__icon kt-input-icon__icon--left">
+							<span><i class="la la-search"></i></span>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div id="tabla-dashboard-tareas"></div>
+
+			<!--end: Datatable -->
+		</div>
+	</div>
+	<!-- end table one -->
+
+	<!-- table two -->
+	
+
+	<!-- end table two -->
+
+	<div class="kt-portlet kt-portlet--mobile">
+		<div class="kt-portlet__head kt-portlet__head--lg">
+			<div class="kt-portlet__head-label">
+				<span class="kt-portlet__head-icon">
+					<i class="kt-font-brand flaticon2-avatar"></i>
+				</span>
+				<h3 class="kt-portlet__head-title">
+					Listado del Personal
+				</h3>
+			</div>
+			<div class="kt-portlet__head-toolbar">
+				<div class="kt-portlet__head-wrapper">
+					<div class="kt-portlet__head-actions">
+						<div class="dropdown dropdown-inline">
+							<button type="button" class="btn btn-default btn-icon-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<i class="la la-download"></i> Export
+							</button>
+							<div class="dropdown-menu dropdown-menu-right">
+								<ul class="kt-nav">
+									<li class="kt-nav__section kt-nav__section--first">
+										<span class="kt-nav__section-text">Choose an option</span>
+									</li>
+									<li class="kt-nav__item">
+										<a  class="kt-nav__link">
+											<i class="kt-nav__link-icon la la-print"></i>
+											<span class="kt-nav__link-text">Print</span>
+										</a>
+									</li>
+									<li class="kt-nav__item">
+										<a  class="kt-nav__link">
+											<i class="kt-nav__link-icon la la-copy"></i>
+											<span class="kt-nav__link-text">Copy</span>
+										</a>
+									</li>
+									<li class="kt-nav__item">
+										<a  class="kt-nav__link">
+											<i class="kt-nav__link-icon la la-file-excel-o"></i>
+											<span class="kt-nav__link-text">Excel</span>
+										</a>
+									</li>
+									<li class="kt-nav__item">
+										<a  class="kt-nav__link">
+											<i class="kt-nav__link-icon la la-file-text-o"></i>
+											<span class="kt-nav__link-text">CSV</span>
+										</a>
+									</li>
+									<li class="kt-nav__item">
+										<a  class="kt-nav__link">
+											<i class="kt-nav__link-icon la la-file-pdf-o"></i>
+											<span class="kt-nav__link-text">PDF</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						&nbsp;
+						<a  class="btn btn-brand btn-icon-sm">
+							<i class="la la-plus"></i>
+							Alta Funcionario
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="kt-portlet__body">
+
+			<!--begin: Datatable -->
+			
+
+			<div class="row">
+				<div class="col-sm-12 col-md-9 ">
+				</div>
+				<div class=" col-sm-12 col-md-3 ">
+					<div class="kt-input-icon kt-input-icon--left">
+						<input type="text" class="form-control form-control-sm" placeholder="Buscar..." id="generalSearch1">
+						<span class="kt-input-icon__icon kt-input-icon__icon--left">
+							<span><i class="la la-search"></i></span>
+						</span>
+					</div>
+				</div>
+			</div>
+			<div id="tabla-funcionarios"></div>
+
+			<!--end: Datatable -->
+		</div>
+	</div>
+
+</div>
+
+
+<!-- <kt-portlet>
+	<kt-portlet-header>
+		<ng-container ktPortletTitle>
+		</ng-container>
+		<ng-container ktPortletTools>
+		</ng-container>
+	</kt-portlet-header>
+	<kt-portlet-body></kt-portlet-body>
+	<kt-portlet-footer></kt-portlet-footer>
+</kt-portlet> -->

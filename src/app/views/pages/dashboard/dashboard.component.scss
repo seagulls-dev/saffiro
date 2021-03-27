@@ -1,0 +1,91 @@
+:host {
+	::ng-deep {
+		ngb-tabset > .nav-tabs {
+			display: none;
+		}
+
+		.kt-widget2 .kt-widget2__item {
+			justify-content: start;
+		}
+
+		// .kt-datatable > .kt-datatable__table > .kt-datatable__body .kt-datatable__toggle-detail i {
+		// 	color: #22b9ff;
+		// }
+
+		.kt-widget2__title:hover {
+			color : #5d78ff !important;
+			cursor: pointer;
+		}
+
+		.kt-widget2 .kt-widget2__item.kt-widget2__item--informativo.tareas:before {
+			background: #ffb822;
+		}
+
+		.kt-widget2 .kt-widget2__item.kt-widget2__item--accion.tareas:before {
+			background: #ff0000;
+		}
+		a.link-num {
+			color : #5d78ff !important;
+		}
+		
+		a.link-num:hover{
+			text-decoration: underline !important;
+		}
+		.kt-user-card-v2__name {
+			color: #595d6e !important;
+		}
+		.kt-user-card-v2__name:hover {
+			color : #22b9ff !important;
+			cursor: pointer;
+		}
+
+		.kt-datatable > .kt-datatable__pager > .kt-datatable__pager-info .kt-datatable__pager-size .btn.dropdown-toggle:focus, .kt-datatable > .kt-datatable__pager > .kt-datatable__pager-info .kt-datatable__pager-size .btn.dropdown-toggle:hover, .kt-datatable > .kt-datatable__pager > .kt-datatable__pager-info .kt-datatable__pager-size.show > .btn.dropdown-toggle {
+			background: #22b9ff;
+		}
+
+		.kt-datatable > .kt-datatable__pager > .kt-datatable__pager-nav > li > .kt-datatable__pager-link.kt-datatable__pager-link--active {
+			background: #22b9ff;
+		}
+		.kt-datatable > .kt-datatable__pager > .kt-datatable__pager-nav > li > .kt-datatable__pager-link:hover {
+			background: #22b9ff;
+		}
+	}
+
+	.kt-subheader {
+		margin: 0;
+		background-color: transparent;
+	}
+
+	.kt-nav__section-text {
+		color : #22b9ff;
+	}
+
+	.kt-nav .kt-nav__item.kt-nav__item--active > .kt-nav__link .kt-nav__link-icon, .kt-nav .kt-nav__item.kt-nav__item--active > .kt-nav__link .kt-nav__link-text, .kt-nav .kt-nav__item.kt-nav__item--active > .kt-nav__link .kt-nav__link-arrow, .kt-nav .kt-nav__item.active > .kt-nav__link .kt-nav__link-icon, .kt-nav .kt-nav__item.active > .kt-nav__link .kt-nav__link-text, .kt-nav .kt-nav__item.active > .kt-nav__link .kt-nav__link-arrow, .kt-nav .kt-nav__item:hover:not(.kt-nav__item--disabled):not(.kt-nav__item--sub) > .kt-nav__link .kt-nav__link-icon, .kt-nav .kt-nav__item:hover:not(.kt-nav__item--disabled):not(.kt-nav__item--sub) > .kt-nav__link .kt-nav__link-text, .kt-nav .kt-nav__item:hover:not(.kt-nav__item--disabled):not(.kt-nav__item--sub) > .kt-nav__link .kt-nav__link-arrow {
+    color: #595d6e;
+	}
+
+	.btn-brand {
+    color: white;
+	}
+
+	// .bootstrap-select > .dropdown-toggle:after {
+	// 	background-color: red !important;
+	// 	font-family: Flaticon2;
+	// 	content: "\f1a3" !important;
+	// }
+}
+
+
+::ng-deep .kt-datatable > .kt-datatable__table > .kt-datatable__body .kt-datatable__toggle-detail i {
+  color: #22b9ff !important;
+}
+
+::ng-deep .kt-nav .kt-nav__section .kt-nav__section-text {
+	color: #22b9ff;
+}
+
+// ::ng-deep .bootstrap-select > .dropdown-toggle:after {
+// 	background-color: red !important;
+// 	font-family: Flaticon2;
+// 	content: "\f1a3" !important;
+// }

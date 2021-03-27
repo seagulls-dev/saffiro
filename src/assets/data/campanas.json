@@ -1,0 +1,59 @@
+{
+    "data": [
+        {
+            "nom_centro": "Sistemas",
+            "num_centro": 158,
+            "fecha_contable": "18-Sep-2020",
+            "cod_funcionario": "100234",
+            "nom_funcionario": "Rodolfo Andres",
+            "ape_funcionario": "Claros Mascarpone",
+            "cargo_funcionario": "Asistente Administrativo",
+            "monto_descuento": "4000",
+            "moneda_descuento": "Bs.",
+            "plazo": 3,
+            "cuota_mensual": "1000",
+            "novedad": "Préstamo personal",
+            "tipo_prestamo": "Educación",
+            "motivo": "Lentes y monturas",
+            "periodo_desde": "202010",
+            "comentarios": "",
+            "estado": "Generada"
+        },
+        {
+            "nom_centro": "Administración",
+            "num_centro": 168,
+            "fecha_contable": "18-Sep-2020",
+            "cod_funcionario": "100265",
+            "nom_funcionario": "Carla Andrea",
+            "ape_funcionario": "Ramirez Perez",
+            "cargo_funcionario": "Jefe Administrativo",
+            "monto_descuento": "6000",
+            "moneda_descuento": "Bs.",
+            "plazo": 3,
+            "cuota_mensual": "2000",
+            "novedad": "Préstamo personal",
+            "tipo_prestamo": "Educación",
+            "periodo_desde": "202010",
+            "comentarios": "",
+            "estado": "Aprobada"
+        },
+        {
+            "nom_centro": "Sistemas",
+            "num_centro": 158,
+            "fecha_contable": "18-Sep-2020",
+            "cod_funcionario": "100217",
+            "nom_funcionario": "Roberto Enrique",
+            "ape_funcionario": "Fernandez Reyes",
+            "cargo_funcionario": "Asistente Administrativo",
+            "monto_descuento": "4000",
+            "moneda_descuento": "Bs.",
+            "plazo": 3,
+            "cuota_mensual": "1000",
+            "novedad": "Préstamo personal",
+            "tipo_prestamo": "Educación",
+            "periodo_desde": "202010",
+            "comentarios": "",
+            "estado": "Corregida"
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "data": [
+        {
+            "id": "1",
+            "fecha": "8-Nov-19",
+            "tipo": "Informativo",
+            "origen": "Personal",
+            "nombre": "Claudia Murillo",
+            "detalle": "Procesar la solicitud de pago de indemnización",
+            "funcionario": "Roger Villegas",
+            "estado": "",
+            "vencimiento": "",
+            "fecha_realizado": ""
+        },
+        {
+            "id": "2",
+            "fecha": "9-Nov-19",
+            "tipo": "Accion",
+            "origen": "Funcionario",
+            "nombre": "Roberto Flores",
+            "detalle": "Revisar solicitud de vacación",
+            "funcionario": "Carlos Aguirre",
+            "estado": "Vigente",
+            "vencimiento": "15-Nov-19",
+            "fecha_realizado": ""
+        },
+        {
+            "id": "3",
+            "fecha": "12-Nov-19",
+            "tipo": "Accion",
+            "origen": "Personal",
+            "nombre": "Claudia Murillo",
+            "detalle": "Elaborar la solicitud de pago",
+            "funcionario": "Paula Martinez",
+            "estado": "Realizado",
+            "vencimiento": "14-Nov-19",
+            "fecha_realizado": "13-Nov-19"
+        },
+        {
+            "id": "4",
+            "fecha": "14-Nov-19",
+            "tipo": "Informativo",
+            "origen": "RRHH",
+            "nombre": "Stephanie Sanjinez",
+            "detalle": "Registrar en sistema el descuento por el beneficio",
+            "funcionario": "Claudia Terrazas",
+            "estado": "",
+            "vencimiento": "",
+            "fecha_realizado": ""
+        },
+        {
+            "id": "5",
+            "fecha": "14-Nov-19",
+            "tipo": "Accion",
+            "origen": "Contabilidad",
+            "nombre": "Ericka Mendoza",
+            "detalle": "Cerrar nóminas en sistema y generar la Solicitud de Pago de Sueldos (SPS)",
+            "funcionario": "",
+            "estado": "Retrasado",
+            "vencimiento": "16-Nov-19",
+            "fecha_realizado": ""
+        }
+    ]
+}

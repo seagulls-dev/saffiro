@@ -1,0 +1,68 @@
+{
+    "data": [
+        {
+            "id": "10001",
+            "nombres": "Camila",
+            "apellido_paterno": "Paredes",
+            "apellido_materno": "Claros",
+            "area": "Sistemas",
+            "cargo": "Analista Desarrollador",
+            "fecha_ingreso": "10-Ene-2020",
+            "induccion": true,
+            "fecha_ini_induccion": "15-Ene-2020",
+            "fecha_fin_induccion": "16-Ene-2020",
+            "inmediato_superior": "Rodolfo Mascarpone",
+            "dudas": true,
+            "observaciones": "Ninguna",
+            "estado": "Revisado"
+        },
+        {
+            "id": "10002",
+            "nombres": "Juan Ramón",
+            "apellido_paterno": "Ramírez",
+            "apellido_materno": "Arcos",
+            "area": "Administración",
+            "cargo": "Asistente Administrativo",
+            "fecha_ingreso": "17-Ene-2020",
+            "induccion": true,
+            "fecha_ini_induccion": "20-Ene-2020",
+            "fecha_fin_induccion": "20-Ene-2020",
+            "inmediato_superior": "Tatiana Mendez",
+            "dudas": true,
+            "observaciones": "Ninguna",
+            "estado": "Revisado"
+        },
+        {
+            "id": "10003",
+            "nombres": "Patricia Rosario",
+            "apellido_paterno": "Arce",
+            "apellido_materno": "Davalos",
+            "area": "Contabilidad",
+            "cargo": "Asistente Contable",
+            "fecha_ingreso": "4-Ene-2020",
+            "induccion": true,
+            "fecha_ini_induccion": "5-Ene-2020",
+            "fecha_fin_induccion": "6-Ene-2020",
+            "inmediato_superior": "Nancy Claros",
+            "dudas": true,
+            "observaciones": "Tuvo algunas dificultades para entender las tareas y sus funciones.",
+            "estado": "Completado"
+        },
+        {
+            "id": "10004",
+            "nombres": "Mario Antonio",
+            "apellido_paterno": "Rodriguez",
+            "apellido_materno": "Aguilar",
+            "area": "Sistemas",
+            "cargo": "Analista Desarrollador",
+            "fecha_ingreso": "19-Ene-2020",
+            "induccion": false,
+            "fecha_ini_induccion": "",
+            "fecha_fin_induccion": "",
+            "inmediato_superior": "Rodolfo Mascarpone",
+            "dudas": false,
+            "observaciones": "",
+            "estado": "Ingresado"
+        }
+    ]
+}

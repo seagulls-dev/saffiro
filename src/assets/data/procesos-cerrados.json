@@ -1,0 +1,56 @@
+{
+    "data": [
+        {
+            "fecha_ingreso": "19-Nov-2019",
+            "nombre_cargo": "",
+            "nuevo_cargo": true,
+            "nombre_nuevo_cargo": "Jefe Operativo",
+            "tipo_postulante": "Planta",
+            "objetivo_cargo": "Coordinar operaciones grupo",
+            "salario_mensual": "7,412",
+            "num_cuenta_gasto": "51023840",
+            "nom_cuenta_gasto": "Sueldos y salarios",
+            "presupuesto": "9,000",
+            "justificacion": "Se realiza una búsqueda de personal por convocatoria externa",
+            "tipo_busqueda": "Trabajópolis",
+            "responsable": "Genji Himuri",
+            "fecha_limite": "20-Dic-2019",
+            "estado": "Desierto"
+        },
+        {
+            "fecha_ingreso": "30-Ago-2019",
+            "nombre_cargo": "Secretaria Ejecutiva",
+            "nuevo_cargo": false,
+            "nombre_nuevo_cargo": "",
+            "tipo_postulante": "Planta",
+            "objetivo_cargo": "Minimizar errores administrativos",
+            "salario_mensual": "3,530",
+            "num_cuenta_gasto": "51023840",
+            "nom_cuenta_gasto": "Sueldos y salarios",
+            "presupuesto": "4,000",
+            "justificacion": "Se realiza una búsqueda de personal por convocatoria externa",
+            "tipo_busqueda": "Periódico",
+            "responsable": "Genji Himuri",
+            "fecha_limite": "2-Oct-2019",
+            "estado": "Completado"
+        },
+        {
+            "fecha_ingreso": "18-Nov-2019",
+            "nombre_cargo": "Jefe Administrativo",
+            "nuevo_cargo": false,
+            "nombre_nuevo_cargo": "",
+            "tipo_postulante": "Planta",
+            "objetivo_cargo": "A cargo procesos administrativos",
+            "salario_mensual": "12,530",
+            "num_cuenta_gasto": "51023840",
+            "nom_cuenta_gasto": "Sueldos y salarios",
+            "presupuesto": "15,000",
+            "justificacion": "Se realiza una búsqueda de personal por convocatoria externa",
+            "tipo_busqueda": "Periódico",
+            "responsable": "Genji Himuri",
+            "fecha_limite": "5-Ene-2020",
+            "estado": "Completado"
+        }
+        
+    ]
+}
